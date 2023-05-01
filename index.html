@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Awesome Book</title>
+</head>
+<body>
+    
+    <nav>
+        <h1>Awesome Book</h1>
+        <ul>
+            <li><a href="#" class="active" data-target="display-books">List</a></li>
+            <li><a href="#" data-target="add-book">Add new</a></li>
+            <li><a href="#" data-target="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main> 
+        <div class="time">
+            
+        </div>
+        <section id="display-books" class="active">
+            <h2>All Awesome books</h2>
+            <div class="display-book">
+                
+            </div>
+        </section>
+        <section   id="add-book" class="add-book">
+            <h2>Add a new book</h2>
+            
+            <form>
+                <div class="title">
+                    <input type="text" name="title" placeholder="title" />
+                </div>
+                <br>
+                <div class="author">
+                    <input type="text" name="author" placeholder="Author">
+                </div>
+                <br>
+                <div class="btn-add">
+                    <button type="button" name="add"> Add </button>
+                </div>
+                <div class="error-msg">
+                    
+                </div>
+            </form>
+        </section>
+        <section id="contact">
+            <div class="info-contact">
+                <h2 >Contact Information</h2>
+                <div class="contact-data">
+                    <p>
+                        Do you have any questions or you just want to say "Hello"?, <br />
+                        ou can reach out to us!
+                      </p>
+                      <ul class="contact-list">
+                        <li>Our email:</li>
+                        <li>Our phone number: 0000000000</li>
+                        <li>Our address: Microverse 2.0 City, USA</li>
+                      </ul>
+                </div>
+              </div>
+        </section>
+    </main>
+    <footer id="copyright">
+      <p class="copyright-paragraph">Copyright - Awesome Books 2023</p>
+    </footer>
+    <script type="module" src="js/index.js"></script>
+</body>
+</html>
