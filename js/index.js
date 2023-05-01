@@ -1,5 +1,7 @@
 import Book from './book.js';
+
 import formattedDate from './dateTime.js';
+
 const book = new Book();
 
 const titleInput = document.getElementsByName('title')[0];
