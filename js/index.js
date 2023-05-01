@@ -42,7 +42,7 @@ const addBookToList = (book) => {
 
 const removeContent = (text) => {
   const element = document.querySelector(text);
-  element.remove();
+  if (element) element.remove();
 };
 const removeBook = (btn) => {
   btn.addEventListener('click', (event) => {
